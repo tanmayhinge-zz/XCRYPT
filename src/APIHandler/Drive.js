@@ -23,7 +23,7 @@ class Drive {
    * @param {fileLoadCallback} onFolderLoaded Callback to handle when folder loaded
    */
   getFolder = (onFolderLoaded) => {
-    const folderName = 'PasswordManager';
+    const folderName = 'XCRYPT';
 
     this.gapi.client.drive.files
       .list({
@@ -73,7 +73,7 @@ class Drive {
    * @param {fileLoadCallback} onFileLoaded Callback to handle when file is loaded
    */
   getSheetFile = (onFileLoaded) => {
-    const fileName = 'Password Manager-database';
+    const fileName = 'XCRYPT-database';
     this.gapi.client.drive.files
       .list({
         q: `name='${fileName}' and parents in '${this.folder_id}'`,

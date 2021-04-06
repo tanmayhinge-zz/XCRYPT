@@ -27,7 +27,7 @@ export default ({ aboutOpen, toggleAboutOpen }) => (
       <img
         alt="logo"
         align="center"
-        src="https://via.placeholder.com/150"
+        src={"./assets/icon-h-res.png"}
         style={{
           maxWidth: 480, width: '100%', display: 'block', margin: 'auto',
         }}
