@@ -1,8 +1,8 @@
 import React from 'react';
 import Paper from '@material-ui/core/Paper';
-import Tooltip from '@material-ui/core/Tooltip';
 import Typography from '@material-ui/core/Typography';
 import './HomePage.css';
+import Footer from './Footer';
 
 const FeatureItem = ({ header, content }) => (
   
@@ -81,6 +81,9 @@ export default class HomePage extends React.Component {
                 <FeatureItem {...item} />
               ))}
             </div>
+          </div>
+          <div className="heavyTopMargin footer">
+            <Footer />
           </div>
         </Paper>
       </div>
