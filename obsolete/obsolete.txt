@@ -1,0 +1,4 @@
+XCRYPT started out as a MERN application, I then shifted to the use a apollo-graphql server, but then i scrapped it completely,
+please do not question my talk about project-management.. i can say i am an improviser (no actually i fell into spagetti code so i scrapped it)
+
+anyhow...this api can still be used with some config if XCRYPT needs to be scaled....
