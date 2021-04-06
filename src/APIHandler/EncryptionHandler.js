@@ -57,6 +57,8 @@ export default class EncryptionHandler {
 
   decryptWithKey = (text, key) => AES.decrypt(text, key).toString(UTF8);
 
+
+  // masterKey -> k1, k2 -> AES256SHA
   addSalt = (text, salt) => {
     let saltedText = '';
     const textSize = text.length;

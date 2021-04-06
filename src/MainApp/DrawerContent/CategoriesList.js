@@ -5,6 +5,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import ListItem from '@material-ui/core/ListItem';
 import List from '@material-ui/core/List';
 import LoadMaterialIcon from '../LoadMaterialIcon';
+import { render } from 'react-dom';
 
 export default ({
   categories,
@@ -27,3 +28,8 @@ export default ({
     ))}
   </List>
 );
+
+
+// react with functions, jsx, state(hooks)
+// 
+//
