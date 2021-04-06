@@ -1,37 +1,8 @@
 import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import Tooltip from '@material-ui/core/Tooltip';
-import Avatar from '@material-ui/core/Avatar';
-import AndroidIcon from '@material-ui/icons/Android';
-import GitHubIcon from '@material-ui/icons/GitHub';
 import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
 import './HomePage.css';
-
-
-const useStyles = makeStyles((theme) => ({
-  title: {
-    flexGrow: 1,
-    textAlign: 'left',
-    verticalAlign: 'bottom',
-  },
-  small: {
-    width: theme.spacing(4),
-    height: theme.spacing(4),
-  },
-  sectionDesktop: {
-    display: 'none',
-    [theme.breakpoints.up('sm')]: {
-      display: 'flex',
-    },
-  },
-  sectionMobile: {
-    display: 'flex',
-    [theme.breakpoints.up('sm')]: {
-      display: 'none',
-    },
-  },
-}));
 
 const FeatureItem = ({ header, content }) => (
   
@@ -102,24 +73,6 @@ export default class HomePage extends React.Component {
               </div>
               <p className="btn-text" ><b>Sign In with Google</b></p>
             </div>
-
-            <Tooltip title="Android App" className={classes.sectionDesktop}>
-            <IconButton
-              aria-label="android app"
-              aria-controls="menu-appbar"
-              color="inherit"
-            >
-              <a
-                href="https://github.com/"
-                rel="noopener noreferrer"
-                target="_blank"
-                style={{ color: 'inherit', textDecoration: 'none', height: 24 }}
-              >
-                <AndroidIcon />
-              </a>
-            </IconButton>
-          </Tooltip>
-
           </div>
           <div className="landing heavyTopMargin">
             <Typography variant="h5">Features</Typography>
