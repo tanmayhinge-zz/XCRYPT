@@ -58,6 +58,7 @@ export default (props) => {
     const loading = <CircularProgress color="inherit" />;
 
     content = (
+      // experimental feature, maybe replace with a good alternative
       <React.Suspense fallback={loading}>
         <SetPassword database={database} onPasswordLoaded={onPasswordLoaded} email={email} />
         {' '}

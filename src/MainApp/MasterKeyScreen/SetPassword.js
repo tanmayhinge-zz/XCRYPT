@@ -117,7 +117,10 @@ export default ({
           Set master password, it will also act as the key for encryptoin
         </Typography>
         <FormControl error={Boolean(errorMessage)} size="small" fullWidth variant="outlined" style={{ marginTop: 20 }}>
-          <InputLabel htmlFor="outlined-adornment-password" autocomplete="off" readonly >Password</InputLabel>
+          <InputLabel htmlFor="outlined-adornment-password" >Password</InputLabel>
+          <div style={{display:"none"}}>
+            <input type="password"/>
+          </div>
           <OutlinedInput
             id="outlined-adornment-password"
             type={showPassword ? 'text' : 'password'}

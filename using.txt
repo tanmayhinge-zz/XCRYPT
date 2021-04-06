@@ -1,0 +1,1 @@
+React Suspense - Data fetching, waiting for data fetching

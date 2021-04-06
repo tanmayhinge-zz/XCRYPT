@@ -65,6 +65,9 @@ export default ({
       <DialogContent>
         <FormControl error={Boolean(errorMessage)} fullWidth variant="outlined" style={{ marginTop: 10 }}>
           <InputLabel htmlFor="outlined-adornment-password">Master Password</InputLabel>
+          <div style={{display:"none"}}>
+            <input type="password"/>
+          </div>
           <OutlinedInput
             id="outlined-adornment-password"
             type={'password'}
