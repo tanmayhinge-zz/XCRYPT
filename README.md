@@ -2,15 +2,22 @@
 
 <img src="./public/assets/logo.png" width="200px">
 
-<h2>ONE PLACE FOR ALL CREDENTIALS</h2>
+</p>
+
+<CENTER>
+
+<h2>ONE PLACE TO MANAGE ALL YOUR CREDENTIALS</h2>
 <p>You and only you have the access to your stored data! 🔒</p>
 <p>Access on any device 💻 📱</p>
 <p>Advanced Encryption that would take "27 trillion trillion trillion trillion trillion years" for an advanced computer to crack 😲</p>
+
 
 <br/><br/>
 
 <p>Get Started 🏃</p>
 <a href="http://www.xcrypt.ml">http://www.xcrypt.ml</a>
+
+</CENTER>
 
 <br/><br/>
 
@@ -18,7 +25,6 @@
 <img src="./public/assets/flow.png">
 
 
-</p>
 
 ---
 
