@@ -14,7 +14,7 @@ export default () => {
                   color="inherit"
                 >
                   <a
-                    href="https://github.com/"
+                    href="https://github.com/tanmayhinge/XCRYPT"
                     rel="noopener noreferrer"
                     target="_blank"
                     style={{ color: 'inherit', textDecoration: 'none', height: 24 }}
@@ -30,7 +30,7 @@ export default () => {
                   color="inherit"
                 >
                   <a
-                    href="https://github.com/"
+                    href="https://github.com/tanmayhinge"
                     rel="noopener noreferrer"
                     target="_blank"
                     style={{ color: 'inherit', textDecoration: 'none', height: 24 }}

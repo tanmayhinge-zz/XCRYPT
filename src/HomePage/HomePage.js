@@ -21,22 +21,7 @@ const FeatureItem = ({ header, content }) => (
 
 const featureItems = [
 
-  {
-    header: 'Privacy First',
-    content: 'XCRYPT has no server 😉 All data is saved to your own Google Drive inside a Google Sheet, so it doesn\'t use much space.',
-  },
-  {
-    header: 'One master password, for all of it',
-    content: 'Just remember one master password which will be used to unlock XCRYPT and let it handle the rest',
-  },
-  {
-    header: 'Advanced Encryption',
-    content: 'All passwords are encrypted using AES-256, an algorithm that takes "27 trillion trillion trillion trillion trillion years" for an advanced computer to crack',
-  },
-  {
-    header: 'Open Sourced, but safely',
-    content: 'The encryption is private for security purposes, but 70% of the app is opsn-sounsr',
-  },
+
 ];
   
 export default class HomePage extends React.Component {
@@ -59,7 +44,7 @@ export default class HomePage extends React.Component {
               align="center"
               gutterBottom
             >
-              An app to manage all your passwords, securely with no central database!
+              ONE PLACE TO MANAGE ALL YOUR CREDENTIALS
             </Typography>
             
 
@@ -72,14 +57,6 @@ export default class HomePage extends React.Component {
                 />
               </div>
               <p className="btn-text" ><b>Sign In with Google</b></p>
-            </div>
-          </div>
-          <div className="landing heavyTopMargin">
-            <Typography variant="h5">Features</Typography>
-            <div className="featuregrid">
-              {featureItems.map((item) => (
-                <FeatureItem {...item} />
-              ))}
             </div>
           </div>
           <div className="heavyTopMargin footer">
