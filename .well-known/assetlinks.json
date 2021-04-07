@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.tanmay.xcrypt",
+    "sha256_cert_fingerprints":
+    ["43:EF:70:0F:86:36:85:31:0C:E3:BF:1C:B0:C8:B7:81:15:FE:27:45:F3:1A:D6:DA:CA:D6:F9:91:5D:65:85:12"]
+  }
+}]
