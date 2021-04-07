@@ -1,4 +1,4 @@
-<center>
+<p align="center">
 
 <img src="./public/assets/logo.png" width="200px">
 
@@ -18,7 +18,7 @@
 <img src="./public/assets/flow.png">
 
 
-</center>
+</p>
 
 ---
 
