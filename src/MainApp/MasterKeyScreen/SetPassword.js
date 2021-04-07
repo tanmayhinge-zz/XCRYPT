@@ -118,12 +118,9 @@ export default ({
         </Typography>
         <FormControl error={Boolean(errorMessage)} size="small" fullWidth variant="outlined" style={{ marginTop: 20 }}>
           <InputLabel htmlFor="outlined-adornment-password" >Password</InputLabel>
-          <div style={{display:"none"}}>
-            <input type="password"/>
-          </div>
           <OutlinedInput
             id="outlined-adornment-password"
-            type={showPassword ? 'text' : 'password'}
+            className="Security"
             value={password}
             onChange={(e) => { setPassword(e.target.value); }}
             disabled={!enabled}
@@ -148,7 +145,7 @@ export default ({
           <InputLabel htmlFor="outlined-adornment-password">Confirm Password</InputLabel>
           <OutlinedInput
             id="outlined-adornment-password"
-            type={showRetypedPassword ? 'text' : 'password'}
+            className="Security"
             value={retypedPassword}
             onChange={(e) => { setRetypedPassword(e.target.value); }}
             disabled={!enabled}
