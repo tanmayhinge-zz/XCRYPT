@@ -51,7 +51,7 @@ export default class HomePage extends React.Component {
         <div className="background"><img src="./assets/background.svg" alt="background" /></div>
         <Paper className="container" elevation={2}>
           <div className="landing">
-            <img src="./assets/Logo.svg" alt="hello" width="100%" style={{ maxWidth: 450 }} />
+            <img src="./assets/logo.png" alt="hello" width="100%" style={{ maxWidth: 250 }} />
 
             <Typography
               color="textSecondary"
