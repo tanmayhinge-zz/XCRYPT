@@ -4,9 +4,13 @@
 
 </p>
 
-<CENTER>
 
-<h2>ONE PLACE TO MANAGE ALL YOUR CREDENTIALS</h2>
+<center>
+
+## **ONE PLACE TO MANAGE ALL YOUR CREDENTIALS**
+
+</center>
+
 <p>You and only you have the access to your stored data! 🔒</p>
 <p>Access on any device 💻 📱</p>
 <p>Advanced Encryption that would take "27 trillion trillion trillion trillion trillion years" for an advanced computer to crack 😲</p>
