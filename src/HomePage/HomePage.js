@@ -19,11 +19,6 @@ const FeatureItem = ({ header, content }) => (
   </div>
 );
 
-const featureItems = [
-
-
-];
-  
 export default class HomePage extends React.Component {
 
   handleGoogleSignIn = () => {
@@ -46,7 +41,14 @@ export default class HomePage extends React.Component {
             >
               ONE PLACE TO MANAGE ALL YOUR CREDENTIALS
             </Typography>
-            
+            <Typography
+              color="textSecondary"
+              variant="body2"
+              align="center"
+              gutterBottom
+            >
+              YOUR DATA IS STORED ONLY ON YOUR END
+            </Typography>
 
             <div className="google-btn" onClick={this.handleGoogleSignIn}>
               <div className="google-icon-wrapper">
