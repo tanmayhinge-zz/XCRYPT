@@ -9,17 +9,6 @@ import SheetsDatabase from '../APIHandler/Database';
 
 const AppLayout = React.lazy(() => import('./AppLayout'));
 
-
-async function registerSW() {
-  console.log('called sw')
-  try{
-    await navigator.serviceWorker.register('./sw.js');
-  }
-  catch(e){
-    console.log('SW registeer failes')
-  }
-}
-
 export default class MainApp extends React.Component {
   constructor(props) {
     super(props);
@@ -44,7 +33,6 @@ export default class MainApp extends React.Component {
           this.props.authHandler.signOutFromGoogle();
         }, 2000);
       }
-      registerSW();
       this.drive.getSheetFile(async (sheet_file_id, user_id) => {
         this.database.setFileId(sheet_file_id);
         this.database.setUserId(user_id);
