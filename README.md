@@ -22,7 +22,7 @@
 
 <br/><br/>
 
-## Flow Diagram
+## Architecture
 <img src="./public/assets/flow.png">
 
 ## Algorithm
