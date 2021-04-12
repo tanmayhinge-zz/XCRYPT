@@ -9,12 +9,9 @@ const Card = React.lazy(() => import('@material-ui/icons/CreditCardOutlined'));
 const Link = React.lazy(() => import('@material-ui/icons/LinkOutlined'));
 const Wifi = React.lazy(() => import('@material-ui/icons/WifiLockOutlined'));
 const Bank = React.lazy(() => import('@material-ui/icons/AccountBalanceOutlined'));
-const Book = React.lazy(() => import('@material-ui/icons/BookOutlined'));
-const Pet = React.lazy(() => import('@material-ui/icons/PetsOutlined'));
-const Cloud = React.lazy(() => import('@material-ui/icons/CloudOutlined'));
-const Fitness = React.lazy(() => import('@material-ui/icons/FitnessCenterOutlined'));
-const Work = React.lazy(() => import('@material-ui/icons/WorkOutlineOutlined'));
-const School = React.lazy(() => import('@material-ui/icons/SchoolOutlined'));
+//add as requried 
+
+
 
 // In order to add icons in the add category dialog add it's name in icon list
 // and set its icon mapping

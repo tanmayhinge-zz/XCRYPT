@@ -19,7 +19,7 @@ import Typography from '@material-ui/core/Typography';
 import { useTheme } from '@material-ui/core/styles';
 
 export default ({
-  database, onPasswordLoaded,
+  database, onPasswordLoaded, authHandler
 }) => {
   // Set dialog mode to full screen in mobile layout
   const theme = useTheme();
@@ -54,6 +54,7 @@ export default ({
     }
   };
   return (
+    <>
     <Dialog
       fullScreen={fullScreen}
       open
@@ -75,14 +76,20 @@ export default ({
           <FormHelperText id="helper">{errorMessage}</FormHelperText>
         </FormControl>
       </DialogContent>
-      <Typography variant="h6" style={{textAlign:"center", paddingTop:"10px", paddingBottom: "30px"}}>
-          Press login from below and wait a few seconds to login securely
+      <Typography variant="h6" style={{textAlign:"center", paddingTop:"10px", paddingBottom: "30px", margin:"5px"}}>
+          Enter Password then press login below and wait a few seconds to get logged in securely
         </Typography>
       <DialogActions style={{ paddingRight: '24px' }}>
         <Button onClick={verifyPassword} disabled={password.length === 0} color="secondary" variant="contained">
           LOGIN
         </Button>
       </DialogActions>
+      <Button variant="outlined" color="inherit" onClick={authHandler.signOutFromGoogle}>
+              Sign Out
+            </Button>
     </Dialog>
+
+
+    </>
   );
 };

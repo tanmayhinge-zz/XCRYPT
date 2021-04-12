@@ -38,6 +38,8 @@ export default ({
 
   const [enabled, toggleEnabled] = React.useReducer((val) => !val, true);
 
+
+  // set passwords , perform checks
   const setMasterPassword = async () => {
     if (password !== retypedPassword) {
       setErrorMessage('Passwords Do Not Match');
@@ -66,7 +68,7 @@ export default ({
       //   field1: `Gmail - ${usersEmail}`,
 
       // });
-      
+
       // password loaded
       onPasswordLoaded();
     }).catch((err) => {
@@ -85,7 +87,7 @@ export default ({
       <DialogTitle align="center">About Drive Folder</DialogTitle>
       <DialogContent>
         <Typography variant="body2" align="justify">
-          A Google Drive Folder and a Goolge Sheet has been created in your Google Drive where all your passwords will be stored in encrypted format... So your data is secured and with you 😃. 
+          A Google Drive Folder and a Goolge Sheet has been created in your Google Drive where all your passwords will be stored in encrypted format... So your data is secured and with you 😃.
           Do not delete that folder from your Drive, or you will lose all the passwords from this app.
         </Typography>
       </DialogContent>
@@ -97,6 +99,7 @@ export default ({
     </>
   );
 
+  // combine in single page i.e just 1 prompt for both in future
   const rememberPasswordDialogContent = (
     <>
       <DialogTitle align="center">Note</DialogTitle>
@@ -118,7 +121,7 @@ export default ({
       <DialogTitle id="responsive-dialog-title" align="center">Set Password</DialogTitle>
       <DialogContent>
         <Typography variant="body2" color="textSecondary">
-          Set master password, it will also act as the key for encryptoin
+          Set master password, it will also act as the key for encryption
         </Typography>
         <FormControl error={Boolean(errorMessage)} size="small" fullWidth variant="outlined" style={{ marginTop: 20 }}>
           <InputLabel htmlFor="outlined-adornment-password" >Password</InputLabel>
