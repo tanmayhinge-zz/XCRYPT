@@ -70,7 +70,7 @@ export default ({
             value={password}
             onChange={(e) => { setPassword(e.target.value); }}
             label="Master Password"
-            className="Security"
+            type="password"
           />
           <FormHelperText id="helper">{errorMessage}</FormHelperText>
         </FormControl>

@@ -55,6 +55,10 @@ export default ({
     onPasswordLoaded('loading');
 
     database.initialize(password).then(async () => {
+
+      // Create a master password entry as well? Probable unnecessary feature update?
+
+
       // await database.insertAccount({
       //   name: 'App',
       //   category: 'other',
@@ -120,7 +124,7 @@ export default ({
           <InputLabel htmlFor="outlined-adornment-password" >Password</InputLabel>
           <OutlinedInput
             id="outlined-adornment-password"
-            className="Security"
+            type="password"
             value={password}
             onChange={(e) => { setPassword(e.target.value); }}
             disabled={!enabled}
@@ -145,7 +149,7 @@ export default ({
           <InputLabel htmlFor="outlined-adornment-password">Confirm Password</InputLabel>
           <OutlinedInput
             id="outlined-adornment-password"
-            className="Security"
+            type="password"
             value={retypedPassword}
             onChange={(e) => { setRetypedPassword(e.target.value); }}
             disabled={!enabled}

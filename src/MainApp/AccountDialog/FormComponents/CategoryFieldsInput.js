@@ -86,7 +86,7 @@ const PasswordComponent = ({
       <InputLabel htmlFor="outlined-adornment-password">{label}</InputLabel>
       <Input
         id="outlined-adornment-password"
-        className="Security"
+        type="password"
         value={text}
         onChange={onTextChange}
         endAdornment={(
