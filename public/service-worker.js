@@ -59,3 +59,26 @@ self.addEventListener('fetch', function(event) {
       );
     }
 });
+
+// function fetchAndCache(url) {
+//   return fetch(url)
+//   .then(function(response) {
+//     // Check if we received a valid response
+//     if (!response.ok) {
+//       throw Error(response.statusText);
+//     }
+//     return caches.open(CACHE_NAME)
+//     .then(function(cache) {
+//       cache.put(url, response.clone());
+//       return response;
+//     });
+//   })
+//   .catch(function(error) {
+//     console.log('Request failed:', error);
+//     return(
+//       <div>
+//         <h1>Offline Page</h1>
+//       </div>
+//     )
+//   });
+// }
