@@ -19,7 +19,7 @@ import Typography from '@material-ui/core/Typography';
 import { useTheme } from '@material-ui/core/styles';
 
 export default ({
-  database, onPasswordLoaded, authHandler
+  database, onPasswordLoaded
 }) => {
   // Set dialog mode to full screen in mobile layout
   const theme = useTheme();
@@ -84,9 +84,6 @@ export default ({
           LOGIN
         </Button>
       </DialogActions>
-      <Button variant="outlined" color="inherit" onClick={authHandler.signOutFromGoogle}>
-              Sign Out
-            </Button>
     </Dialog>
 
 
