@@ -1,5 +1,7 @@
 **Privacy Policy**
 
+XCRYPT does not collect data and will not be responsible for any data or password leaks or any damage caused to you, your devices or anybody. All data is stored on your end and we recommend you to keep your google account and google drive secured. We will be more than happy to help you to make sure your data is secured if you wish to contact us for the same.
+
 XCRYPT is an Open Source app. This SERVICE is provided by at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.

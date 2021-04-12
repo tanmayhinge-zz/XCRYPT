@@ -1,9 +1,0 @@
-{
-    "appId": "io.ionic.xcrypt",
-    "appName": "xcrypt",
-    "bundledWebRuntime": false,
-    "npmClient": "npm",
-    "webDir": "build",
-    "cordova": {},
-    "linuxAndroidStudioPath": "/home/tanmay/android-studio/bin/studio.sh"
-  }

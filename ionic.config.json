@@ -1,7 +1,0 @@
-{
-    "name": "xcrypt",
-    "integrations": {
-      "capacitor": {}
-    },
-    "type": "react"
-  }
