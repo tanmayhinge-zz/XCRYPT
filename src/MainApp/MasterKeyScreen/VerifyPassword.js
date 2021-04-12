@@ -49,7 +49,7 @@ export default ({
         setErrorMessage('Incorrect Password');
       }
     } catch (err) {
-      console.log(err);
+     // console.log(err);
       setErrorMessage('Incorrect Password');
     }
   };

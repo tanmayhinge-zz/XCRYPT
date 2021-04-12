@@ -46,7 +46,7 @@ class App extends React.Component {
         this.setState({ user });
       },
       (error) => {
-        console.log(error);
+       // console.log(error);
         if (error.error && error.error === 'access_denied') {
           this.setState({ toast: 'App cannot proceed since permission to access drive has been denied' });
           return;
