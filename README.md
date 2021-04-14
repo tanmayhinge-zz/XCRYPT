@@ -18,6 +18,7 @@
 
 <p align="center">Get Started 🏃</p>
 <p align="center"><a href="http://www.xcrypt.ml">http://www.xcrypt.ml</a></p>
+<p align="center"><a href="https://play.google.com/store/apps/details?id=com.tanmayhinge.xcrypt">Android App</a></p>
 
 
 <br/><br/>
@@ -28,7 +29,6 @@
 ## Algorithm
 <img src="./public/assets/algo.png">
 
----
 
 ## Project Setup
 
