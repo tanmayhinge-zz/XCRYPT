@@ -8,7 +8,7 @@ export default () => {
     return(
         <div>
 
-          //github
+          {/* //github */}
         <Tooltip title="GitHub"  style={{margin:"10px"}}>
                 <IconButton
                   aria-label="android app"
@@ -26,7 +26,7 @@ export default () => {
                 </IconButton>
         </Tooltip>
 
-        // android
+        {/* // android */}
         <Tooltip title="Android App"  style={{margin:"10px"}}>
                 <IconButton
                   aria-label="android app"

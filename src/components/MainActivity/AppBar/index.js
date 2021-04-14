@@ -59,7 +59,7 @@ export default ({ className, children }) => {
         <Toolbar>
           {children}
 
-          // github
+          {/* // github */}
           <Tooltip title="Github Repo Link" className={classes.sectionDesktop}>
             <IconButton
               aria-label="github repo"
@@ -75,9 +75,10 @@ export default ({ className, children }) => {
                 <GitHubIcon />
               </a>
             </IconButton>
+            {/* // android */}
           </Tooltip>
 
-          // android
+
           <Tooltip title="Android App" className={classes.sectionDesktop}>
             <IconButton
               aria-label="android app"

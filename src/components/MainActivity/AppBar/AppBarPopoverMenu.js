@@ -50,7 +50,7 @@ export default ({
           subheader={user.getEmail()}
         />
 
-        //github
+        {/* //github */}
         <a
           href="https://github.com/tanmayhinge/XCRYPTgithub.com/"
           rel="noopener noreferrer"
@@ -65,7 +65,7 @@ export default ({
           </MenuItem>
         </a>
 
-        //android
+        {/* //android */}
         <a
           href="https://play.google.com/store/apps/details?id=com.tanmayhinge.xcrypt"
           rel="noopener noreferrer"
