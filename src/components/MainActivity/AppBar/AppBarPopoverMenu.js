@@ -50,8 +50,9 @@ export default ({
           subheader={user.getEmail()}
         />
 
+        //github
         <a
-          href="https://github.com/"
+          href="https://github.com/tanmayhinge/XCRYPTgithub.com/"
           rel="noopener noreferrer"
           target="_blank"
           style={{ color: 'inherit', textDecoration: 'none' }}
@@ -63,8 +64,10 @@ export default ({
             <ListItemText primary="Github Repo" />
           </MenuItem>
         </a>
+
+        //android
         <a
-          href="https://github.com/"
+          href="https://play.google.com/store/apps/details?id=com.tanmayhinge.xcrypt"
           rel="noopener noreferrer"
           target="_blank"
           style={{ color: 'inherit', textDecoration: 'none' }}
@@ -76,6 +79,7 @@ export default ({
             <ListItemText primary="Android App" />
           </MenuItem>
         </a>
+
         <MenuItem onClick={() => { toggleAboutOpen(); handlePopoverClose(); }}>
           <ListItemIcon>
             <InfoIcon fontSize="small" />

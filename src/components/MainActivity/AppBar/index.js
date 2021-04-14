@@ -58,6 +58,8 @@ export default ({ className, children }) => {
       <AppBar position="fixed" className={className} style={{ background: '#424242' }}>
         <Toolbar>
           {children}
+
+          // github
           <Tooltip title="Github Repo Link" className={classes.sectionDesktop}>
             <IconButton
               aria-label="github repo"
@@ -65,7 +67,7 @@ export default ({ className, children }) => {
               color="inherit"
             >
               <a
-                href="https://github.com/"
+                href="https://github.com/tanmayhinge/XCRYPT"
                 rel="noopener noreferrer"
                 target="_blank"
                 style={{ color: 'inherit', textDecoration: 'none', height: 24 }}
@@ -74,6 +76,8 @@ export default ({ className, children }) => {
               </a>
             </IconButton>
           </Tooltip>
+
+          // android
           <Tooltip title="Android App" className={classes.sectionDesktop}>
             <IconButton
               aria-label="android app"
@@ -81,7 +85,7 @@ export default ({ className, children }) => {
               color="inherit"
             >
               <a
-                href="https://github.com/"
+                href="https://play.google.com/store/apps/details?id=com.tanmayhinge.xcrypt"
                 rel="noopener noreferrer"
                 target="_blank"
                 style={{ color: 'inherit', textDecoration: 'none', height: 24 }}

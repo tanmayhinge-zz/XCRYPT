@@ -7,6 +7,8 @@ import Tooltip from '@material-ui/core/Tooltip';
 export default () => {
     return(
         <div>
+
+          //github
         <Tooltip title="GitHub"  style={{margin:"10px"}}>
                 <IconButton
                   aria-label="android app"
@@ -23,6 +25,8 @@ export default () => {
                   </a>
                 </IconButton>
         </Tooltip>
+
+        // android
         <Tooltip title="Android App"  style={{margin:"10px"}}>
                 <IconButton
                   aria-label="android app"
@@ -30,7 +34,7 @@ export default () => {
                   color="inherit"
                 >
                   <a
-                    href="https://github.com/tanmayhinge"
+                    href="https://play.google.com/store/apps/details?id=com.tanmayhinge.xcrypt"
                     rel="noopener noreferrer"
                     target="_blank"
                     style={{ color: 'inherit', textDecoration: 'none', height: 24 }}

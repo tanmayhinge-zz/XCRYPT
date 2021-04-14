@@ -3,9 +3,9 @@ import React from 'react';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import Snackbar from '@material-ui/core/Snackbar';
 import './App.css';
-import HomePage from './HomePage';
-import GoogleAuth from './APIHandler/Auth';
-import MainApp from './MainApp';
+import HomePage from './components/HomeActivity';
+import GoogleAuth from './DataHandler/Auth';
+import MainApp from './components/MainActivity';
 
 const theme = createMuiTheme({
   palette: {

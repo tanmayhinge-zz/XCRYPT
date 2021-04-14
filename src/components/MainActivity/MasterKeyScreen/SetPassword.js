@@ -121,7 +121,7 @@ export default ({
       <DialogTitle id="responsive-dialog-title" align="center">Set Password</DialogTitle>
       <DialogContent>
         <Typography variant="body2" color="textSecondary">
-          Set master password, it will also act as the key for encryption
+          Set master password, it will also act as the key for encryption. Enter Password and click save from below, then wait a few seconds for the encryption algorithm, and log you in securely..
         </Typography>
         <FormControl error={Boolean(errorMessage)} size="small" fullWidth variant="outlined" style={{ marginTop: 20 }}>
           <InputLabel htmlFor="outlined-adornment-password" >Password</InputLabel>
