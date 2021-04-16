@@ -114,9 +114,6 @@ export default ({ open, toggleOpen }) => {
       <DialogTitle>Add New Category</DialogTitle>
       <DialogContent>
         <Grid container spacing={1} alignItems="baseline">
-          <Grid item>
-            <IconSelectDialog selectedIcon={fields.icon} setSelectedIcon={(e) => changeField('icon')(e.target.value)} />
-          </Grid>
           <Grid item style={{ flex: 1 }}>
             <FormControl error={Boolean(errorMessage)} fullWidth variant="outlined" size="small" disabled={disabled}>
               <InputLabel htmlFor="name-field">Category Name</InputLabel>

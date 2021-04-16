@@ -99,6 +99,22 @@ export default ({
     </>
   );
 
+  const googleSavePasswordContent =(
+    <>
+      <DialogTitle align="center">Note About Google's Save Password</DialogTitle>
+      <DialogContent>
+        <Typography variant="body2" align="justify">
+          It is recommended that you copy paste -> chrome://settings/passwords in your browser's address bar and un-check the "Offer to Save Passwords" field, this way you can disable saving your passwords in plain-text in your browser/ google account etc.
+        </Typography>
+      </DialogContent>
+      <DialogActions style={{ paddingRight: '24px' }}>
+        <Button onClick={() => { setDialogContentIdx(2); }} color="primary">
+          Next
+        </Button>
+      </DialogActions>
+    </>
+  )
+
   // combine in single page i.e just 1 prompt for both in future
   const rememberPasswordDialogContent = (
     <>
@@ -110,12 +126,13 @@ export default ({
         </Typography>
       </DialogContent>
       <DialogActions style={{ paddingRight: '24px' }}>
-        <Button onClick={() => { setDialogContentIdx(2); }} color="primary">
+        <Button onClick={() => { setDialogContentIdx(3); }} color="primary">
           Next
         </Button>
       </DialogActions>
     </>
   );
+  // google pass man, placeholder till i figureout how to block the prompt
   const passwordDialogContent = (
     <>
       <DialogTitle id="responsive-dialog-title" align="center">Set Password</DialogTitle>
@@ -169,6 +186,7 @@ export default ({
   );
   const contentArray = [
     driveFolderDialogContent,
+    googleSavePasswordContent,
     rememberPasswordDialogContent,
     passwordDialogContent,
   ];
