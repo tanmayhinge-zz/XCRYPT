@@ -1,7 +1,8 @@
-<p align="center">
+    
 <p align="center">I have taken this project (the app as well) down as of March 2022, you can still clone and run it locally after setting our G-API key.</p>
 
-    
+<p align="center">
+
 <img src="./public/assets/logo.png" width="200px">
 
 </p>
